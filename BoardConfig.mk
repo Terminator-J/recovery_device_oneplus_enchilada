@@ -20,7 +20,7 @@
 DEVICE_PATH := device/oneplus/enchilada
 
 # inherit from the proprietary version
--include vendor/oneplus/enchilada/BoardConfigVendor.mk
+#-include vendor/oneplus/enchilada/BoardConfigVendor.mk
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
