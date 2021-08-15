@@ -15,6 +15,7 @@ AB_OTA_PARTITIONS += \
     system \
     vendor \
     vbmeta \
+    dtbo
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
